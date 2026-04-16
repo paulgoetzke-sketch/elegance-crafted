@@ -100,7 +100,7 @@ export const portfolio: PortfolioCategory[] = [
     items: [
       {
         id: "sk1",
-        title: "„Infinitum"",
+        title: "Infinitum",
         image: sculpture1,
         material: "Bronze, vergoldet",
         technique: "Modelliert & poliert",
@@ -109,7 +109,7 @@ export const portfolio: PortfolioCategory[] = [
       },
       {
         id: "sk2",
-        title: "„Equilibrium"",
+        title: "Equilibrium",
         image: sculpture2,
         material: "Messing, hochglanzpoliert",
         technique: "Konstruktion aus Hand",
@@ -118,7 +118,7 @@ export const portfolio: PortfolioCategory[] = [
       },
       {
         id: "sk3",
-        title: "„Aufwind"",
+        title: "Aufwind",
         image: sculpture3,
         material: "Bronze, blattvergoldet",
         technique: "Gegossen & geschmiedet",
