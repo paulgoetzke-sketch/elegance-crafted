@@ -66,7 +66,7 @@ export const portfolio: PortfolioCategory[] = [
     items: [
       {
         id: "s1",
-        title: "Solitär Lumière",
+        title: "Solitär \u201eLumi\u00e8re\u201c",
         image: jewelry1,
         material: "750er Roségold, 0,4 ct Brillant",
         technique: "Vier-Krappen-Fassung",
@@ -75,7 +75,7 @@ export const portfolio: PortfolioCategory[] = [
       },
       {
         id: "s2",
-        title: "Halskette Nuit",
+        title: "Halskette \u201eNuit\u201c",
         image: jewelry2,
         material: "585er Gelbgold",
         technique: "Handgefertigte Ankerkette",
@@ -84,7 +84,7 @@ export const portfolio: PortfolioCategory[] = [
       },
       {
         id: "s3",
-        title: "Ohrhänger Cascade",
+        title: "Ohrh\u00e4nger \u201eCascade\u201c",
         image: jewelry3,
         material: "750er Roségold, Bergkristall",
         technique: "Filigranarbeit",
@@ -100,7 +100,7 @@ export const portfolio: PortfolioCategory[] = [
     items: [
       {
         id: "sk1",
-        title: "Infinitum",
+        title: "\u201eInfinitum\u201c",
         image: sculpture1,
         material: "Bronze, vergoldet",
         technique: "Modelliert & poliert",
@@ -109,7 +109,7 @@ export const portfolio: PortfolioCategory[] = [
       },
       {
         id: "sk2",
-        title: "Equilibrium",
+        title: "\u201eEquilibrium\u201c",
         image: sculpture2,
         material: "Messing, hochglanzpoliert",
         technique: "Konstruktion aus Hand",
@@ -118,7 +118,7 @@ export const portfolio: PortfolioCategory[] = [
       },
       {
         id: "sk3",
-        title: "Aufwind",
+        title: "\u201eAufwind\u201c",
         image: sculpture3,
         material: "Bronze, blattvergoldet",
         technique: "Gegossen & geschmiedet",
