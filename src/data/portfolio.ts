@@ -66,7 +66,7 @@ export const portfolio: PortfolioCategory[] = [
     items: [
       {
         id: "s1",
-        title: "Solitär „Lumière"",
+        title: "Solitär Lumière",
         image: jewelry1,
         material: "750er Roségold, 0,4 ct Brillant",
         technique: "Vier-Krappen-Fassung",
@@ -75,7 +75,7 @@ export const portfolio: PortfolioCategory[] = [
       },
       {
         id: "s2",
-        title: "Halskette „Nuit"",
+        title: "Halskette Nuit",
         image: jewelry2,
         material: "585er Gelbgold",
         technique: "Handgefertigte Ankerkette",
@@ -84,7 +84,7 @@ export const portfolio: PortfolioCategory[] = [
       },
       {
         id: "s3",
-        title: "Ohrhänger „Cascade"",
+        title: "Ohrhänger Cascade",
         image: jewelry3,
         material: "750er Roségold, Bergkristall",
         technique: "Filigranarbeit",
