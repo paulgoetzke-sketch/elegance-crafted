@@ -1,12 +1,12 @@
-import craft1 from "@/assets/craft-1.jpg";
-import craft2 from "@/assets/craft-2.jpg";
-import craft3 from "@/assets/craft-3.jpg";
-import jewelry1 from "@/assets/jewelry-1.jpg";
-import jewelry2 from "@/assets/jewelry-2.jpg";
-import jewelry3 from "@/assets/jewelry-3.jpg";
-import sculpture1 from "@/assets/sculpture-1.jpg";
-import sculpture2 from "@/assets/sculpture-2.jpg";
-import sculpture3 from "@/assets/sculpture-3.jpg";
+import craft1 from "@/assets/images/craft-1.jpg";
+import craft2 from "@/assets/images/craft-2.jpg";
+import craft3 from "@/assets/images/craft-3.jpg";
+import jewelry1 from "@/assets/images/jewelry-1.jpg";
+import jewelry2 from "@/assets/images/jewelry-2.jpg";
+import jewelry3 from "@/assets/images/jewelry-3.jpg";
+import sculpture1 from "@/assets/images/sculpture-1.jpg";
+import sculpture2 from "@/assets/images/sculpture-2.jpg";
+import sculpture3 from "@/assets/images/sculpture-3.jpg";
 
 export type PortfolioItem = {
   id: string;

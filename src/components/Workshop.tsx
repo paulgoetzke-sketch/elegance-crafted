@@ -1,4 +1,5 @@
-import workshopImg from "@/assets/workshop.jpg";
+import workshopImg from "@/assets/images/schmiede.jpg";
+import { useScrollFade } from "@/hooks/use-scroll-fade";
 
 const highlights = [
   { title: "Tradition", text: "Techniken aus Jahrhunderten – bewahrt, weitergegeben, beherrscht." },
@@ -7,8 +8,21 @@ const highlights = [
 ];
 
 const Workshop = () => {
+  const { ref, style } = useScrollFade<HTMLElement>();
   return (
-    <section id="workshop" className="py-28 md:py-36 bg-surface-deep">
+    <section
+      ref={ref}
+      id="workshop"
+      className="relative py-28 md:py-36 bg-surface-deep"
+      style={style}
+    >
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 -top-32 h-32 overflow-hidden"
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-background/0 to-surface-deep animate-divider-breathe" />
+        <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent animate-divider-shimmer" />
+      </div>
       <div className="container grid md:grid-cols-2 gap-16 items-center">
         <div>
           <p className="text-xs uppercase tracking-[0.4em] text-primary mb-6">
@@ -46,9 +60,7 @@ const Workshop = () => {
           <div className="absolute -inset-4 border border-primary/20 -z-10" />
           <img
             src={workshopImg}
-            alt="Atmosphärische Aufnahme der Goldschmiedewerkstatt mit Werkzeugen, Amboss und Esse"
-            width={1280}
-            height={1280}
+            alt="Atmosphärische Aufnahme der Goldschmiedewerkstatt Wesenberg"
             loading="lazy"
             className="w-full h-[600px] object-cover shadow-elegant"
           />

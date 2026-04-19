@@ -2,31 +2,38 @@ import { Instagram, Facebook, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-surface-deep pt-20 pb-10">
+    <footer className="relative bg-surface-deep pt-20 pb-10">
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 -top-32 h-32 overflow-hidden"
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-background/0 to-surface-deep animate-divider-breathe" />
+        <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent animate-divider-shimmer" />
+      </div>
       <div className="container">
         <div className="divider-gold mb-16" />
 
         <div className="grid md:grid-cols-3 gap-12 mb-16">
           <div>
             <div className="font-serif text-2xl tracking-wider text-gold mb-4">
-              Aurum
+              Wesenberg
             </div>
             <p className="text-sm text-foreground/60 leading-relaxed max-w-xs">
               Goldschmiedeatelier für Schmuck, freie Arbeiten und Restaurierungen
-              – seit 1987 in München.
+              – seit 1976 in Cottbus.
             </p>
           </div>
 
           <div>
             <h4 className="text-xs uppercase tracking-[0.3em] text-primary mb-4">
-              Atelier
+              Wesenberg
             </h4>
             <p className="text-sm text-foreground/60 leading-relaxed">
-              Goldgasse 14
+              Burgstraße 9
               <br />
-              80331 München
+              03046 Cottbus
               <br />
-              +49 89 1234 5678
+              +49 355 25031
             </p>
           </div>
 
@@ -50,7 +57,7 @@ const Footer = () => {
                 <Facebook className="h-4 w-4" />
               </a>
               <a
-                href="mailto:atelier@aurum-goldschmiede.de"
+                href="mailto:wesenberg@goldmail.de"
                 aria-label="E-Mail"
                 className="h-10 w-10 border border-border flex items-center justify-center text-foreground/70 hover:text-primary hover:border-primary transition-colors"
               >
@@ -61,7 +68,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 pt-8 border-t border-border text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} Aurum Goldschmiede. Alle Rechte vorbehalten.</p>
+          <p>© {new Date().getFullYear()} Wesenberg Goldschmiede. Alle Rechte vorbehalten.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-primary transition-colors">Impressum</a>
             <a href="#" className="hover:text-primary transition-colors">Datenschutz</a>

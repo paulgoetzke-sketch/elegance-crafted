@@ -3,10 +3,9 @@ import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { href: "#about", label: "Über mich" },
+  { href: "#hero", label: "Home" },
   { href: "#workshop", label: "Werkstatt" },
   { href: "#portfolio", label: "Portfolio" },
-  { href: "#testimonials", label: "Stimmen" },
   { href: "#contact", label: "Kontakt" },
 ];
 
@@ -32,7 +31,7 @@ const Navigation = () => {
     >
       <div className="container flex h-20 items-center justify-between">
         <a href="#hero" className="flex items-center gap-2 group">
-          <span className="font-serif text-2xl tracking-wider text-gold">Aurum</span>
+          <span className="font-serif text-2xl tracking-wider text-gold">Wesenberg</span>
           <span className="hidden sm:inline text-xs uppercase tracking-[0.3em] text-muted-foreground">
             Goldschmiede
           </span>

@@ -4,15 +4,15 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Workshop from "@/components/Workshop";
 import PortfolioSection from "@/components/PortfolioSection";
-import Testimonials from "@/components/Testimonials";
+import GoogleReviews from "@/components/GoogleReviews";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 const Index = () => {
   useEffect(() => {
-    document.title = "Aurum Goldschmiede – Handgefertigter Schmuck & Skulpturen";
+    document.title = "Wesenberg Goldschmiede – Handgefertigter Schmuck & Skulpturen";
     const desc =
-      "Atelier Aurum: Handgefertigter Schmuck, freie Goldobjekte und Skulpturen aus München. Tradition, Präzision und Unikate seit 1987.";
+      "Atelier Wesenberg: Handgefertigter Schmuck, freie Goldobjekte und Skulpturen aus München. Tradition, Präzision und Unikate seit 1987.";
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) {
       meta = document.createElement("meta");
@@ -29,7 +29,7 @@ const Index = () => {
       <About />
       <Workshop />
       <PortfolioSection />
-      <Testimonials />
+      <GoogleReviews />
       <Contact />
       <Footer />
     </main>

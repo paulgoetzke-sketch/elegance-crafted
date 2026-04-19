@@ -39,11 +39,11 @@ const Contact = () => {
             <div className="flex gap-4">
               <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-serif text-lg mb-1">Atelier</h3>
+                <h3 className="font-serif text-lg mb-1">Wesenberg</h3>
                 <p className="text-sm text-foreground/70 leading-relaxed">
-                  Goldgasse 14
+                  Burgstraße 9
                   <br />
-                  80331 München
+                  03046 Cottbus
                 </p>
               </div>
             </div>
@@ -53,10 +53,10 @@ const Contact = () => {
               <div>
                 <h3 className="font-serif text-lg mb-1">Telefon</h3>
                 <a
-                  href="tel:+498912345678"
+                  href="tel:+4935525031"
                   className="text-sm text-foreground/70 hover:text-primary transition-colors"
                 >
-                  +49 89 1234 5678
+                  +49 355 25031
                 </a>
               </div>
             </div>
@@ -66,10 +66,10 @@ const Contact = () => {
               <div>
                 <h3 className="font-serif text-lg mb-1">E-Mail</h3>
                 <a
-                  href="mailto:atelier@aurum-goldschmiede.de"
+                  href="mailto:wesenberg@goldmail.de"
                   className="text-sm text-foreground/70 hover:text-primary transition-colors"
                 >
-                  atelier@aurum-goldschmiede.de
+                  wesenberg@goldmail.de
                 </a>
               </div>
             </div>

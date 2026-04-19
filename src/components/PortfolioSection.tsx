@@ -12,7 +12,14 @@ const PortfolioSection = () => {
   };
 
   return (
-    <section id="portfolio" className="py-28 md:py-36">
+    <section id="portfolio" className="relative py-28 md:py-36">
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 -top-32 h-32 overflow-hidden"
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-surface-deep/0 to-background animate-divider-breathe" />
+        <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent animate-divider-shimmer" />
+      </div>
       <div className="container">
         <div className="text-center max-w-2xl mx-auto mb-20">
           <p className="text-xs uppercase tracking-[0.4em] text-primary mb-6">
